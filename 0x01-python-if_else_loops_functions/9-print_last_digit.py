@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 
-
+# Author - Tolulope Fakunle
 
 
 
 def print_last_digit(number):
 
-        last_digit = (number % 10) if number >= 0 else ((number * -1) % 10)
+        print(abs(number) % 10, end="")
 
-            print(last_digit, end='')
-
-                return (last_digit)
+            return (abs(number) % 10)
